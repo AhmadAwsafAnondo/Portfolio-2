@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
   background-color: #1d242d;
 }
@@ -39,7 +42,7 @@ body{
 }
 .nav-content ul li:hover{
   background-color: rgb(0, 0, 0);
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 10px 10px;
 }
 nav img{
@@ -64,27 +67,33 @@ nav img{
   text-decoration: none;
 }
 .btn-1{
-  background: linear-gradient(to right,rgb(255, 102, 0), rgb(255, 0, 85));
+  background: linear-gradient(to right,rgb(238, 255, 0), rgb(255, 166, 0));
   color: white;
   border: none;
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 .btn-1:hover{
-  background: linear-gradient(to left,rgb(255, 102, 0), rgb(255, 0, 85));
+  background: linear-gradient(to left,rgb(238, 255, 0), rgb(255, 166, 0));
 }
 .btn-2{
-  background: linear-gradient(to right,rgb(255, 102, 0), rgb(255, 0, 85));
-  color: white;
+  background: linear-gradient(to right,rgb(238, 255, 0), rgb(255, 166, 0));
+  color: rgb(0, 0, 0);
   border: none;
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
   margin-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 .btn-2:hover{
-  background: linear-gradient(to left,rgb(255, 102, 0), rgb(255, 0, 85));
+  background: linear-gradient(to left,rgb(238, 255, 0), rgb(255, 166, 0));
+
 }
 .content-1{
   text-align: justify;
@@ -359,7 +368,8 @@ nav img{
 #submit{
   width: 20%;
   height: 8vh;
-  background: linear-gradient(to left,rgb(255, 102, 0), rgb(255, 0, 85));
+  background: linear-gradient(to left,rgb(238, 255, 0), rgb(255, 166, 0));
+
   /* border: none; */
   border-radius: 50px;
   margin-top: 3%;
@@ -369,10 +379,13 @@ nav img{
   /* border: 3px solid rgb(255, 0, 85); */
   border: none;
   font-weight: 700;
-  color: white ;
+  color: rgb(0, 0, 0) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 #submit:hover{
-  background: linear-gradient(to right,rgb(255, 102, 0), rgb(255, 0, 85));
+  background: linear-gradient(to right,rgb(238, 255, 0), rgb(255, 166, 0));
+
   border: none;
 }
 footer{
