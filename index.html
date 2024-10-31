@@ -11,30 +11,33 @@
   <header>
     <div class="upper-nav"></div>
     <div class="nav-content">
-      <nav>
+      <nav id="navMenu">
+          <img src="Hamburger.png" alt="" id="hamburger" style="margin-top: 30px; margin-left: 80vw; width: 30px;">
         <a href="index.html">
           <img src="Logo black.png" alt="">
         </a>
-        <ul>
-          <a href="index.html">
-            <li>HOME</li>
-          </a>
-          <a href="#about-me">
-            <li>ABOUT ME</li>
-          </a>
-          <a href="#skills">
-            <li>SKILLS</li>
-          </a>
-          <a href="#contact">
-            <li>CONTACT ME</li>
-          </a>
-        </ul>
+        <div id="nav-ul">
+          <ul class="nav-ul">
+            <a href="#content-1">
+              <li>HOME</li>
+            </a>
+            <a href="#about-me">
+              <li>ABOUT ME</li>
+            </a>
+            <a href="#skills">
+              <li>SKILLS</li>
+            </a>
+            <a href="#contact">
+              <li>CONTACT ME</li>
+            </a>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
   <main>
-    <section class="landing-page">
-    <div class="content-1">
+    <section class="landing-page" id="landing-page">
+    <div class="content-1" id="content-1">
       <h1 style="margin-top: 30% !important;">AHMAD AWSAF ANONDO</h1>
       <h2>Hey there this is Ahmad!</h2>
       <p>I’m a passionate web developer with a love for crafting clean, responsive, and engaging websites. With a strong foundation in HTML, CSS, and JavaScript, I bring creative ideas to life and continuously explore new technologies to enhance my skills. Whether I’m building a dynamic portfolio, a user-friendly e-commerce site, or a unique web experience, my goal is to create impactful, accessible designs that leave a lasting impression. Thank you for visiting, and I look forward to connecting with you!</p>
@@ -43,9 +46,9 @@
           DOWNLOAD CV
         </button>
       </a>
-      <button class="btn-2">
+      <a href="#contact"><button class="btn-2">
         CONTACT ME
-      </button>
+      </button></a>
     </div>
     <div class="side-nav">
       <img src="sidebar white.png" alt="">
@@ -121,15 +124,15 @@
       <form action="">
         <h1>Contact Me</h1>
         <div class="contact-items">
-        <input type="text" placeholder="Enter Your Name">
-        <input type="email" placeholder="Enter Your Email">
+        <input type="text" placeholder="Enter Your Name" id="form-name">
+        <input type="email" placeholder="Enter Your Email" id="form-email">
         <textarea name="Message" id="textarea" placeholder="Enter your Comment"></textarea>
         <input type="submit" value="Submit" id="submit">
         </div>
       </form>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
     <h5>&copy; 2023 All Rights Reserved to Ahmad Awsaf Anondo</h5>
     <div class="social-media">
       <a href="http://www.facebook.com">
@@ -149,5 +152,6 @@
       </a>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
