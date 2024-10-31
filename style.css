@@ -457,10 +457,8 @@ footer h5 {
   text-decoration: none;
   margin-right: 4%;
 }
-@media (max-width: 767px) {
-  /* *{
-    border: 1px solid;
-  } */
+@media (max-width: 576px) {
+  
   .nav-content ul a li{
     font-size: smaller;
     font-weight: 700;
