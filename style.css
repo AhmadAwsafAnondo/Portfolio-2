@@ -458,17 +458,16 @@ footer h5 {
   margin-right: 4%;
 }
 @media (max-width: 767px) {
-  *{
-    /* border: 1px solid; */
-  }
-  .nav-content ul li{
-    font-size: small;
+  /* *{
+    border: 1px solid;
+  } */
+  .nav-content ul a li{
+    font-size: smaller;
     font-weight: 700;
   }
   .nav-content ul{
-    width: 70%;
+    width: 75%;
     left: 15%;
-    margin-left: 0%;
   }
   .nav-content {
     width: 100%;
@@ -495,7 +494,7 @@ footer h5 {
   }
   .content-1 {
     margin: auto;
-    margin-top: 85%;
+    margin-top: 90%;
     width: 300px;
     margin-bottom: 30%;
   }
