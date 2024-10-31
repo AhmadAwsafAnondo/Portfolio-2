@@ -18,19 +18,11 @@
         </a>
         <div id="nav-ul">
           <ul class="nav-ul">
-            <a href="#content-1">
-              <li>HOME</li>
-            </a>
-            <a href="#about-me">
-              <li>ABOUT ME</li>
-            </a>
-            <a href="#skills">
-              <li>SKILLS</li>
-            </a>
-            <a href="#contact">
-              <li>CONTACT ME</li>
-            </a>
-          </ul>
+            <li><a href="#landing-page">HOME</a></li>
+            <li><a href="#about-me">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
         </div>
       </nav>
     </div>
@@ -38,7 +30,7 @@
   <main>
     <section class="landing-page" id="landing-page">
     <div class="content-1" id="content-1">
-      <h1 style="margin-top: 30% !important;">AHMAD AWSAF ANONDO</h1>
+      <h1 style="margin-top: 30% !important;" id="heading">AHMAD AWSAF ANONDO</h1>
       <h2>Hey there this is Ahmad!</h2>
       <p>I’m a passionate web developer with a love for crafting clean, responsive, and engaging websites. With a strong foundation in HTML, CSS, and JavaScript, I bring creative ideas to life and continuously explore new technologies to enhance my skills. Whether I’m building a dynamic portfolio, a user-friendly e-commerce site, or a unique web experience, my goal is to create impactful, accessible designs that leave a lasting impression. Thank you for visiting, and I look forward to connecting with you!</p>
       <a target="_blank" href="CV.pdf">
@@ -54,34 +46,36 @@
       <img src="sidebar white.png" alt="">
     </div>
     <div class="me">
-      <img src="combined compressed.png" alt="">
+      <img src="combined compressed.png" alt="" id="me">
     </div>
     </section>
-    <section class="about-me" id="about-me">
-      <h1 class="about-heading">ABOUT ME</h1>
-      <p>Welcome to my creative corner! I’m a versatile web developer and digital creator skilled in Graphic Design, Video Editing, and Web Development. With a strong foundation in HTML, CSS, and JavaScript, I bring websites to life, creating dynamic, engaging, and user-friendly experiences. My design skills allow me to craft visuals that are not only appealing but also align with each project’s goals, while my video editing expertise adds an extra layer of storytelling to my work.
-
-        Whether I'm building a responsive website, designing eye-catching graphics, or editing captivating videos, my focus is always on quality, creativity, and impact. Thank you for exploring my work, and I look forward to bringing new ideas to life together!</p>
-    </section>
-    <section>
-      <div class="about-items">
-        <div class="name">
-          <h5>Name</h4>
-          <p><b>Ahmad Awsaf Anondo</b></p>
+    <section class="page-2">
+      <section class="about-me" id="about-me">
+        <h1 class="about-heading" id="about-heading">ABOUT ME</h1>
+        <p>Welcome to my creative corner! I’m a versatile web developer and digital creator skilled in Graphic Design, Video Editing, and Web Development. With a strong foundation in HTML, CSS, and JavaScript, I bring websites to life, creating dynamic, engaging, and user-friendly experiences. My design skills allow me to craft visuals that are not only appealing but also align with each project’s goals, while my video editing expertise adds an extra layer of storytelling to my work.
+  
+          Whether I'm building a responsive website, designing eye-catching graphics, or editing captivating videos, my focus is always on quality, creativity, and impact. Thank you for exploring my work, and I look forward to bringing new ideas to life together!</p>
+      </section>
+      <section class="about-me-2">
+        <div class="about-items">
+          <div class="name">
+            <h5>Name</h4>
+            <p><b>Ahmad Awsaf Anondo</b></p>
+          </div>
+          <div class="name">
+            <h5>Email</h4>
+            <p><b>ahmadawsafanondo@gmail.com</b></p>
+          </div>
+          <div class="name">
+            <h5>Education</h4>
+            <p><b>United International University</b></p>
+          </div>
+          <div class="name-1">
+            <h5>Address</h4>
+            <p><b>Dhaka, Bangladesh</b></p>
+          </div>
         </div>
-        <div class="name">
-          <h5>Email</h4>
-          <p><b>ahmadawsafanondo@gmail.com</b></p>
-        </div>
-        <div class="name">
-          <h5>Education</h4>
-          <p><b>United International University</b></p>
-        </div>
-        <div class="name-1">
-          <h5>Address</h4>
-          <p><b>Dhaka, Bangladesh</b></p>
-        </div>
-      </div>
+      </section>
     </section>
     <section class="skills" id="skills">
       <div class="skill-description">
@@ -126,7 +120,7 @@
         <div class="contact-items">
         <input type="text" placeholder="Enter Your Name" id="form-name">
         <input type="email" placeholder="Enter Your Email" id="form-email">
-        <textarea name="Message" id="textarea" placeholder="Enter your Comment"></textarea>
+        <textarea name="Message" id="textarea" placeholder="Enter your Message"></textarea>
         <input type="submit" value="Submit" id="submit">
         </div>
       </form>
