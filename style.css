@@ -463,7 +463,7 @@ footer h5 {
 @media (max-width: 576px) {
   
   header{
-    height: 9vh;
+    height: 10vh;
   }
   .nav-content ul a li{
     font-size: smaller;
